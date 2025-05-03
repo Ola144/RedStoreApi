@@ -1,0 +1,21 @@
+{
+  "name": "redstore-jsonserver",
+  "version": "1.0.0",
+  "description": "redstore json server",
+  "keywords": [
+    "RedStore"
+  ],
+  "license": "ISC",
+  "author": "Fortunate",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install; npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10",
+    "json-server": "^0.16.2"
+  }
+}
